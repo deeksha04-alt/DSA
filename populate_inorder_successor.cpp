@@ -13,6 +13,7 @@ Complexity analysis :
 (1) TC: O(N) , N==> Number of nodes in a BST 
 (2) SC: O(H) (Stack space used during recursive calls) , in worst case  it can go upto O(N).
 */
+    
 void solve(Node* r)
 {
     static Node* suc=NULL;
