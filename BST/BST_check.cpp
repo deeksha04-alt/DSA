@@ -10,8 +10,8 @@ The steps are as follows:
 (4) Return a logical AND of leftchild and rightchild call .
 
 Complexity Analysis:
-(1) TC :  
-(2) SC :
+(1) TC : O(N) , N => Number of nodes in BST
+(2) SC : O(1) No additional space except for recursive stack space
 */
 
 bool solve(Node* root,int mini,int maxi)
