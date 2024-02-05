@@ -1,4 +1,4 @@
-Practice Link:https://leetcode.com/problems/first-unique-character-in-a-string/?envType=daily-question&envId=2024-02-05
+/*Practice Link:https://leetcode.com/problems/first-unique-character-in-a-string/?envType=daily-question&envId=2024-02-05
 QUES:
 Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
@@ -34,7 +34,7 @@ Handling No Unique Character Case:
 
 If no unique character is found in the entire string (no return happened in the previous step),
 return -1 to indicate that there is no unique character.
-
+*/
 CODE:
 class Solution {
 public:
