@@ -52,6 +52,17 @@ Time complexity: O(m*nlogn))
 nlogn -> for sorting every string present in the strs
 we traverse the whole strs from 0  to size of strs , so total time complexity is O(m*nlogn))
 
+Space Complexity: O(n)
+
+1. The space complexity is determined by the unordered_map, denoted as unordered_map<string, vector<string>> mp.
+2. Each unique way the characters can be rearranged (after sorting each input string) becomes a key in the map.
+3. The number of keys is at most equal to the number of unique sorted strings.
+4. Each key is associated with a vector of original strings from the input.
+5. The total number of original strings (the sum of lengths of all strings in the input) is denoted as 'n'.
+6. Therefore, the space required for the map is proportional to the number of unique sorted strings plus 
+the total number of original strings.
+This results in a space complexity of O(n).
+
 */
 
 CODE:
