@@ -34,6 +34,12 @@ Handling No Unique Character Case:
 
 If no unique character is found in the entire string (no return happened in the previous step),
 return -1 to indicate that there is no unique character.
+
+TIME COMPLEXITY:  O(n)
+we traverse the string from 0 to length of string.
+
+SPACE COMPLEXITY : O(n)
+we store the characters and their frequency in the unordered_map.
 */
 CODE:
 class Solution {
